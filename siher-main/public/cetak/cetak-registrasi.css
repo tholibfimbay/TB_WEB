@@ -1,0 +1,212 @@
+@media print {
+    @page {
+        size: 21.59cm 27.94cm;
+        margin-top: 1cm;
+        margin-right: 0;
+        margin-bottom: .5cm;
+        margin-left: 0;
+    }
+}
+
+* {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10.5pt;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.print-area {
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.header * {
+    font-size: 11pt;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.header {
+    padding: 0 1cm;
+}
+
+.col-6 {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.header .date {
+    text-align: right;
+}
+
+.header .url {
+    color: blue;
+}
+
+.banner {
+    padding: 0 .1cm;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.title {
+    width: 12cm;
+    height: 0.86cm;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    margin-top: .7cm;
+}
+
+.title * {
+    font-size: 14.5pt;
+    text-align: center;
+    margin: 0;
+    color: red;
+    font-weight: bold;
+}
+
+.title .col-auto {
+    margin: auto;
+}
+
+.align-items-center {
+    -ms-flex-align: center !important;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+}
+
+.align-content-center {
+    -ms-flex-line-pack: center !important;
+    align-content: center !important;
+}
+
+.col-auto {
+    -ms-flex: 0 0 auto;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.biodata {
+    margin: .5cm 4.5cm 0 1.4cm;
+}
+
+.biodata .content {
+    max-width: 9cm;
+}
+
+.biodata td:nth-child(1) {
+    width: 4.1cm;
+}
+
+.biodata td:nth-child(2) {
+    width: .1cm;
+}
+
+.biodata img {
+    max-width: 1140px;
+    max-height: 1221px;
+}
+
+.file-list {
+    margin: 1cm 6.5cm 0 1cm;
+}
+
+.file-list table {
+    margin-left: 1.75cm;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.file-list table * {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.file-list tbody * {
+    padding: 5px 5px;
+}
+
+.file-list table thead td:nth-child(1) {
+    padding: 0 15px;
+}
+
+.file-list table thead td:nth-child(3) {
+    padding: 0 25px;
+}
+
+.file-list table tbody td:nth-child(2) {
+    text-align: left;
+}
+
+.file-list table tbody td:nth-child(3) {
+    font-size: 16.5pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signature {
+    margin: 1cm 2.3cm 0;
+}
+
+.signature * {
+    position: relative;
+}
+
+.signature .col-auto {
+    margin-left: auto;
+}
+
+.signature p {
+    margin: 0;
+    z-index: 3;
+}
+
+.signature p:nth-child(4) {
+    margin-top: 3.5cm;
+}
+
+.signature img {
+    position: absolute;
+}
+
+.signature #signature-image {
+    width: 9.17cm;
+    z-index: 2;
+    left: -140px;
+    top: -10px;
+}
+
+.signature #stamp-image {
+    width: 3.36cm;
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    z-index: 1;
+    top: 35px;
+    right: 50px;
+}
+
+
+/*# sourceMappingURL=cetak-registrasi.css.map */
